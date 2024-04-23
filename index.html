@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="form">
+    <form class="my-detail">
+
+
+          <div class="container">
+            <h1>Student Form</h1>
+            <form id="student-form">
+              <div class="form-group">
+                <input type="text" id="roll-no" name="roll-no" placeholder="Enter your roll no" required>
+                <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+                <input type="text" id="batch" name="batch" placeholder="Enter your batch" required>
+                <select id="section" name="section" required>
+                  <option value="">Section</option>
+                  <option value="E">E</option>
+                  <option value="F">F</option>
+                  <option value="other">Other</option>
+                </select>
+              </div>
+              <div class="form-group">
+               <a href="./index.html" id="submitbtn" type="button">Submit</a>
+
+              </div>
+            </form>
+          </div>
+<script src="./quiz-app.js"></script>
+</body>
+</html>
